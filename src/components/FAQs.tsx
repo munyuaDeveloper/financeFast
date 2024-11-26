@@ -4,6 +4,7 @@ import messageIcon from '../assets/images/messageIcon.svg'
 import iphone from "../assets/images/iPhone13Pro.svg"
 import appStore from "../assets/images/appStore.svg"
 import playStore from "../assets/images/playStoreBadge.svg"
+import linesBg from "../assets/images/linesBg.png"
 
 const FAQs = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -71,7 +72,10 @@ const FAQs = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#563ACC] sm:min-h-[400px] flex flex-col sm:flex-row justify-center items-center sm:justify-between my-20 rounded-3xl pt-5 sm:pt-20 px-4 sm:px-20">
+
+            <div
+                style={{ backgroundImage: `url(${linesBg})` }}
+                className="bg-cover bg-center sm:min-h-[400px] flex flex-col sm:flex-row justify-center items-center sm:justify-between my-20 rounded-3xl pt-5 sm:pt-20 px-4 sm:px-20">
                 <div className="w-full sm:w-[566px]">
                     <p className="font-bold text-white text-[24px] sm:text-[40px]">One Solution for All Your Cross-Border Payments</p>
                     <div className="flex gap-5 sm:gap-10 mt-10">
