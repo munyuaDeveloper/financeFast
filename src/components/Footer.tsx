@@ -6,21 +6,21 @@ import { Link } from "react-router-dom"
 const Footer = () => {
     return (
         <div className="w-full sm:container mx-auto mt-20 sm:mt-32 px-5 sm:px-0">
-            <div className="flex flex-col sm:flex-row flex-wrap justify-between">
-                <div className="flex flex-col gap-4">
+            <div className="flex flex-col sm:flex-row flex-wrap justify-between gap-5 sm:gap-0">
+                <div className="flex flex-col gap-2 sm:gap-4">
                     <h1 className="font-bold text-lg">Company</h1>
                     <Link to={''}>About</Link>
                     <Link to={''}>Contact</Link>
                     <Link to={''}>Blog</Link>
                 </div>
 
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-2 sm:gap-4">
                     <h1 className="font-bold text-lg">Product</h1>
                     <Link to={''}>Money conversion</Link>
                     <Link to={''}>International transactions</Link>
                     <Link to={''}>International transactions</Link>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-2 sm:gap-4">
                     <h1 className="font-bold text-lg">Legal</h1>
                     <Link to={''}>Terms & conditions</Link>
                     <Link to={''}>Privacy policy</Link>
